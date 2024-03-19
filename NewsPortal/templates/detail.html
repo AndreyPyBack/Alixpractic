@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detailL</title>
+</head>
+<body>
+{{ new.category }}
+{{ new.nameNew }}
+{{ new.textNew }}
+{% if user.is_authenticated%}
+<p> Hi, {{user.username}}!</p>
+
+{% endif %}
+</body>
+</html>
